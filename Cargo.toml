@@ -1,0 +1,16 @@
+[package]
+name = "lichess"
+version = "0.1.0"
+edition = "2021"
+description = "A modular, dependency-free Rust re-implementation of the core Lichess platform."
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+
+[lib]
+name = "lichess"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lichess-server"
+path = "src/main.rs"
