@@ -1,3 +1,5 @@
 function renderUser(userInput) {
-    document.write("<div>" + userInput + "</div>");
+    const div = document.createElement("div");
+    div.textContent = userInput;
+    document.body.appendChild(div);
 }
